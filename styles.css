@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h3 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 1.2em;
+}
+
+.container input[type="text"],
+.container button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+  border: 2px solid #333;
+  border-radius: 5px;
+  outline: none;
+  width: 100%; /* Lebar input dan tombol */
+  box-sizing: border-box; /* Memastikan padding tidak menambah lebar */
+}
+
+.container button {
+  cursor: pointer;
+  background-color: #ff69b4;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #e6005c;
+}
+
+.socmed-wrapper {
+  margin-top: 20px;
+}
+
+.socmed-link {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.socmed-icon {
+  font-size: 2em;
+  color: #333;
+}
+
+/* Media query untuk layar dengan lebar kurang dari atau sama dengan 600px */
+@media (max-width: 600px) {
+  .container {
+    width: 90%; /* Mengurangi lebar kontainer untuk layar kecil */
+  }
+}
